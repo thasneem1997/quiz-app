@@ -1,0 +1,129 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background: radial-gradient(circle at 52.1% -29.6%, rgb(144, 17, 105) 0%, rgb(51, 0, 131) 100.2%);
+    font-family: "Outfit", sans-serif;
+    color: white;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.quiz-container {
+    background-color: #f2e9fa;
+    border-radius: 10px;
+    padding: 32px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 500px;
+    margin: 20px;
+}
+
+h1.question {
+    font-size: 1.5em;
+    margin-bottom: 20px;
+    color: black;
+}
+
+.quiz-form {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 10px;
+}
+
+.option {
+    background: #f8f8f8;
+    color: #333;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+}
+
+.option input {
+    margin-right: 10px;
+    accent-color: #5e0877;
+}
+
+.option:hover {
+    background-color: rgb(246, 145, 215);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+input[type="radio"] {
+    cursor: pointer;
+}
+
+button {
+    background-image: linear-gradient(92.88deg, #b54589 9.16%, #cc4365 43.89%, #d73f90 64.72%);
+    border-radius: 8px;
+    border-style: none;
+    color: #FFFFFF;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: 500;
+    height: 3rem;
+    padding: 0 2.9rem;
+    text-align: center;
+    display: block;
+    width: 100%;
+    margin-top: 20px;
+}
+
+button:hover {
+    box-shadow: rgba(205, 63, 96, 0.5) 0 1px 30px;
+}
+
+.page {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.page h1 {
+    color: #333;
+    font-size: 16px;
+}
+
+a {
+    text-decoration: none;
+}
+
+@media (max-width: 768px) {
+    .quiz-container {
+        margin: 10px;
+        padding: 20px;
+    }
+
+    h1.question {
+        font-size: 1.2em;
+    }
+
+    button {
+        padding: 0 1.5rem;
+    }
+    footer {
+        position: absolute;
+        bottom: 0;
+        width: 100%;
+        text-align: center;
+        color: white; 
+        padding: 10px 0;
+    }
+}
+
+@media (max-width: 480px) {
+    .option {
+        font-size: 14px;
+    }
+
+    .page h1 {
+        font-size: 14px;
+    }
+}

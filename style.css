@@ -1,0 +1,247 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+
+
+}
+
+body {
+    background: radial-gradient(circle at 52.1% -29.6%, rgb(144, 17, 105) 0%, rgb(51, 0, 131) 100.2%);
+    font-family: "Outfit", sans-serif;
+    width: 100%;
+}
+
+.content {
+    display: flex;
+    gap: 210px;
+}
+
+.quiz-container {
+    margin: 87px 80px;
+    color: white;
+    background-image: url(images/slider_background.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+.quiz-text {
+    margin-top: 92px;
+    transition: 0.9s;
+    animation: fadeIn 0.5s;
+}
+
+h1 {
+    font-size: 72px;
+}
+
+.quiz-container img {
+    width: 457px;
+    transition: 0.9s;
+    animation: fadeIn 0.5s;
+}
+
+button {
+    background-image: linear-gradient(92.88deg, #b54589 9.16%, #cc4365 43.89%, #d73f90 64.72%);
+    border-radius: 8px;
+    border-style: none;
+    box-sizing: border-box;
+    color: #FFFFFF;
+    cursor: pointer;
+    margin-top: -150px;
+    font-size: 16px;
+    font-weight: 500;
+    height: 3rem;
+    padding: 0 1.2rem;
+    text-align: center;
+}
+
+button:hover {
+    box-shadow: rgba(205, 63, 96, 0.5) 0 1px 30px;
+    transition-duration: .1s;
+
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background: radial-gradient(circle at 52.1% -29.6%, rgb(144, 17, 105) 0%, rgb(51, 0, 131) 100.2%);
+    font-family: "Outfit", sans-serif;
+    width: 100%;
+}
+
+.content {
+    display: flex;
+    gap: 210px;
+}
+
+.quiz-container {
+    margin: 87px 80px;
+    color: white;
+    background-image: url(images/slider_background.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.quiz-text {
+    margin-top: 92px;
+    transition: 0.9s;
+    animation: fadeIn 0.5s;
+}
+
+h1 {
+    font-size: 72px;
+}
+
+.quiz-container img {
+    width: 457px;
+    transition: 0.9s;
+    animation: fadeIn 0.5s;
+}
+
+button {
+    background-image: linear-gradient(92.88deg, #b54589 9.16%, #cc4365 43.89%, #d73f90 64.72%);
+    border-radius: 8px;
+    border-style: none;
+    box-sizing: border-box;
+    color: #FFFFFF;
+    cursor: pointer;
+    margin-top: -150px;
+    font-size: 16px;
+    font-weight: 500;
+    height: 3rem;
+    padding: 0 1.2rem;
+    text-align: center;
+}
+
+button:hover {
+    box-shadow: rgba(205, 63, 96, 0.5) 0 1px 30px;
+    transition-duration: .1s;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+.footer{
+    text-align: center;
+    margin-top: -34px;
+}
+
+
+@media (max-width: 1200px) {
+    h1 {
+        font-size: 48px;
+    }
+
+    .content {
+        display: flex;
+        flex-direction: column;
+        gap: 40px;
+    }
+
+    .quiz-container {
+        margin: 50px 40px;
+    }
+
+    .quiz-container img {
+        width: 300px;
+    }
+    button {
+        font-size: 14px;
+        padding: 0 2.6rem;
+        height: 2.5rem;
+       
+        margin-top: -50px;
+        margin-left: 9px;
+
+    }
+    .footer{
+        text-align: center;
+        margin-top: 56px;
+
+    }
+}
+
+@media (max-width: 768px) {
+    body {
+        font-size: 14px;
+        width: 100%;
+    }
+
+    h1 {
+        font-size: 32px;
+    }
+
+    .quiz-container {
+        margin: 30px 20px;
+    }
+
+    .quiz-container img {
+        width: 200px;
+        text-align: center;
+        margin: 0 auto;
+    }
+
+    button {
+        font-size: 14px;
+        padding: 0 2.6rem;
+        height: 2.5rem;
+       
+        margin-top: -50px;
+        margin-left: 9px;
+
+    }
+
+    .content {
+        gap: 20px;
+        text-align: center;
+    }
+}
+
+@media (max-width: 480px) {
+    .quiz-text {
+        margin-top: 50px;
+    }
+
+    button {
+        width: 100%;
+        margin-top: 20px;
+    }
+
+    .footer {
+        text-align: center;
+        margin-top: 15px;
+
+    }
+}
