@@ -40,6 +40,7 @@ h1 {
     width: 457px;
     transition: 0.9s;
     animation: fadeIn 0.5s;
+    will-change: opacity, transform;
 }
 
 button {
@@ -153,7 +154,8 @@ a {
         opacity: 1;
     }
 }
-.footer{
+
+.footer {
     text-align: center;
     margin-top: -34px;
 }
@@ -177,16 +179,18 @@ a {
     .quiz-container img {
         width: 300px;
     }
+
     button {
         font-size: 14px;
         padding: 0 2.6rem;
         height: 2.5rem;
-       
+
         margin-top: -50px;
         margin-left: 9px;
 
     }
-    .footer{
+
+    .footer {
         text-align: center;
         margin-top: 56px;
 
@@ -217,7 +221,7 @@ a {
         font-size: 14px;
         padding: 0 2.6rem;
         height: 2.5rem;
-       
+
         margin-top: -50px;
         margin-left: 9px;
 
@@ -236,7 +240,7 @@ a {
 
     button {
         width: 100%;
-        margin-top: 20px;
+        margin-top: -16px;
     }
 
     .footer {
